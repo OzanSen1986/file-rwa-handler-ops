@@ -1,0 +1,71 @@
+{
+  "user": {
+    "id": 1001,
+    "username": "gregor kotlin",
+    "email": "john.doe@example.com",
+    "isActive": true,
+    "registeredAt": "2024-01-15T10:30:00Z",
+    "profile": {
+      "firstName": "John",
+      "lastName": "Doe",
+      "age": 28,
+      "address": {
+        "street": "123 Main St",
+        "city": "San Francisco",
+        "state": "CA",
+        "zipCode": "94102",
+        "country": "USA"
+      },
+      "phoneNumbers": [
+        {
+          "type": "mobile",
+          "number": "+1-555-0123"
+        },
+        {
+          "type": "work",
+          "number": "+1-555-0124"
+        }
+      ]
+    },
+    "preferences": {
+      "newsletter": true,
+      "notifications": {
+        "email": true,
+        "sms": false,
+        "push": true
+      },
+      "theme": "dark"
+    },
+    "orders": [
+      {
+        "orderId": "ORD-2024-001",
+        "date": "2024-10-15",
+        "total": 249.99,
+        "status": "delivered",
+        "items": 3
+      },
+      {
+        "orderId": "ORD-2024-002",
+        "date": "2024-11-01",
+        "total": 89.50,
+        "status": "shipped",
+        "items": 1
+      },
+      {
+        "orderId": "ORD-2024-003",
+        "date": "2024-12-01",
+        "total": 250.50,
+        "status": "shipped",
+        "items": 2
+      },
+      {
+        "orderId": "ORD-2024-004",
+        "date": "2025-11-05",
+        "total": 99.99,
+        "status": "pending",
+        "items": 5
+      }
+    ],
+    "tags": ["premium", "verified", "loyal_customer"]
+  }
+}

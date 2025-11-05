@@ -1,5 +1,4 @@
 class Open_File():
-    
     def __init__(self, filename, mode):
         self.filename = filename
         self.mode= mode
@@ -15,7 +14,7 @@ class Open_File():
 with Open_File('data.txt', 'w') as f:
     f.write('Testing')
 
-print(f.closed)    
+print(f.closed)  
 
 
 
