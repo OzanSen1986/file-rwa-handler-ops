@@ -3,6 +3,7 @@ data.json
 *.log
 logs/
 .DS_Store
+DevPractice/
 
 
 
