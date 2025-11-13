@@ -21,3 +21,7 @@
 2025-11-12 16:08:35,587 [INFO] Data added to the file: d384744b-c8ba-4d30-8f6b-c45239a92c2b, FSG-79 on 2025-11-12
 2025-11-12 16:08:35,587 [INFO] logging records added to the file: basicLogFile.csv
 2025-11-12 16:16:51,705 [INFO] logging records added to the file: basicLogFile.csv
+2025-11-13 12:39:06,471 [INFO] Data added to the file: 4967da52-211f-4fad-8324-b578e16f2469, AA74-75 on 2025-11-13
+2025-11-13 12:39:06,471 [INFO] logging records added to the file: FnDataAnalytics/basicLogFile.csv
+2025-11-13 12:41:28,684 [INFO] Data added to the file: 4a834845-daa8-4b76-b751-6eb87b0d2d3c, CDS-3043 on 2025-11-13
+2025-11-13 12:41:28,684 [INFO] logging records added to the file: FnDataAnalytics/basicLogFile.csv

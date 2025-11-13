@@ -8,8 +8,8 @@ import logging
 from dataclasses import dataclass, field
 
 
-FILE_PATH = Path('basicLogFile.csv')
-ORDERS = Path('order_details.csv')
+FILE_PATH = Path('FnDataAnalytics/basicLogFile.csv')
+ORDERS = Path('FnDataAnalytics/order_details.csv')
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s", filename=FILE_PATH)
 
@@ -45,7 +45,7 @@ def read_file(path: Path) -> Iterator[Customer]:
 
 def main() -> Iterator[Customer]:
 
-    # data_entry(ORDERS, Customer(uuid4(),'FSG-79',24, 35.99, 2))
+    data_entry(ORDERS, Customer(uuid4(),'CDS-3043',25, 40.99, 2))
     # data_entry(ORDERS, Customer(uuid4(), 'SCD-6342',160, 12.45, 3))
     # data_entry(ORDERS, Customer(uuid4(), 'XXDGS', 220, 14.99, 2))
     # data_entry(ORDERS, Customer(uuid4(), 'CCSS-XX', 200, 124.99, 1))
