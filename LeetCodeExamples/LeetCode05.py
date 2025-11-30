@@ -2,7 +2,7 @@
 Group the strings that are anagrams (words formed using the same letters in the same counts).
 Return a list of groups, where each group is a list of anagram strings.'''
 
-word_list= ["aabb", "bcbc", "abab", "bcdb", "cd", "cdab", "bcad", "ccdb"]
+word_list= ["pipe", "pine", "nipe", "pepi", "peip", "pineapp", "apppine", "pien"]
 def groupAnagrams(strs: list[str]):
     result={}
     for word in strs:

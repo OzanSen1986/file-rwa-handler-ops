@@ -5,6 +5,9 @@ logs/
 .DS_Store
 DevPractice/
 Others/
+DataPipelines/
+EventSourcing/
+DJANGO-SERIES/
 
 
 
